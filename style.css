@@ -1,23 +1,72 @@
-/* styles.css */
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
+body{
+    background: radial-gradient(#39c962,#1DB247 ,#122D2B);
+    background-repeat: no-repeat;
 }
 
-.container {
-    text-align: center;
-    margin: 50px;
+.header{
+    
 }
 
-h1 {
-    color: #333;
+.header img{
+    backdrop-filter: brightness(80%);
+    width: 80px;
+    margin: 10px;
 }
 
-button {
-    padding: 10px 20px;
-    font-size: 16px;
+.header img:hover{
     cursor: pointer;
+}
+
+.ul-header{
+    margin-left: 1270px;
+    margin-top: -80px;
+}
+
+.ul-header li{
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+    cursor: pointer;
+    font-size: 25px;
+    border: 1px solid #122D2B;
+    border-style: outset;
+}
+
+.btn-click{
+    font-size: larger;
+    display: block;
+    margin: auto;
+    margin-top: 1000px;
+    border-radius: 2px solid  #122D2B;
+    
+    background-color: unset;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    transition-duration: 0.5s;
+}
+
+.btn-click:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgb(0, 124, 58);
+    color: rgb(15, 192, 59);
+    background-color: white;
+    transition-duration: 0.5s;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.end-of-site{
+    backdrop-filter: brightness(70%);
+    color: white;
+    width: auto;
+    height: 200px;
+}
+
+.end-of-site p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 150px;
 }
